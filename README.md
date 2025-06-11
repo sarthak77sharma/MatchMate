@@ -1,7 +1,7 @@
 # MatchMate
 It is a global dating app, that helps connect people across the globe!
 
-
+---
 
 ## 🧩 Architecture
 
@@ -55,6 +55,13 @@ Using this architectural approach and modern libraries provides the following be
 ## 📷 Screen-shots
 
 <img src="screenshots/screenshot_profiles.png" alt="Login Screen" width="100" height="200" />                      <img src="screenshots/screenshot_history.png" alt="Login Screen" width="100" height="200" />                      <img src="screenshots/screenshot_myprofile.png" alt="Login Screen" width="100" height="200" />
+
+
+## 📈 MM Score
+
+- We calculate the distance between person's **latitude and longitude** and the matching profile's, based on the distance score updated. This helps in connecting with people who are in close proximity.
+- Based on the **age difference**, score is updated if the matching profile is more eligible!
+- Combining these scores, gives us the final **MM Score**
 
 ---
 
